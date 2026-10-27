@@ -2,7 +2,7 @@
 
 作者：小虫Prince · 技术支持：小虫（QQ：2239052231）
 
-Windows 10/11 64 位便携版。请在 [Releases](https://github.com/2239052231xiaochong/szu-campus-login/releases/latest) 下载完整的 `SzuCampusLogin-v1.3.3-win64.zip`；无需安装 Python 或校园网客户端。
+Windows 10/11 64 位便携版。请在 [Releases](https://github.com/2239052231xiaochong/szu-campus-login/releases/latest) 下载完整的 `SzuCampusLogin-v1.3.4-win64.zip`；无需安装 Python 或校园网客户端。
 
 ## 使用
 
@@ -14,6 +14,8 @@ Windows 10/11 64 位便携版。请在 [Releases](https://github.com/2239052231x
 
 **远程使用请将睡眠设为“从不”；可以灭屏、锁屏。** 高级设置可开启 UU、ToDesk、向日葵的进程／服务保持，不代替远程账号登录。
 
-高级设置新增「自动更新」，默认关闭。开启后会后台检查、下载并安装新版，保留设置并短暂重启程序；未保存的表单会等待保存。关闭时仍可点击「检查更新」并自行确认。更新源为 [GitCode](https://gitcode.com/qq_45486948/szu-campus-login/releases)。手动更新前运行旧版「一键退出.cmd」，保留 `data` 文件夹。
+高级设置中的「自动更新」，默认关闭。开启后会后台检查、下载并安装新版，保留设置并短暂重启程序；未保存的表单会等待保存。关闭时仍可点击「检查更新」并自行确认。更新源为 [GitCode](https://gitcode.com/qq_45486948/szu-campus-login/releases)。手动更新前运行旧版「一键退出.cmd」，保留 `data` 文件夹。
 
-丽湖现场登录尚待验证。本仓库用于发布便携安装包与使用说明，发行包不含个人账号、配置、日志或发布私钥。
+寝室区认证参数按当前网页登录配置生成，保留已有会话。本次粤海寝室区已验证：腾达 F3 的墙上网线接 WAN 口、动态 IP 上网，电脑由程序自动补登后，手机关闭移动数据重连 Wi-Fi，仍无需单独认证即可访问外网。LAN 口上联可能使设备分别进入校园网；程序不会修改路由器配置。其他路由器与丽湖现场登录仍需实际验证。
+
+本仓库用于发布便携安装包与使用说明，发行包不含个人账号、配置、日志或发布私钥。
